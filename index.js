@@ -36,9 +36,7 @@ client.on('messageCreate', message => {
         client.commands.get('pic').execute(message,args);
     } else if (command == 'commands'){
         client.commands.get('commands').execute(message,args);
-    } else if (command == 'test'){
-        client.commands.get('test').execute(message,args);
-    }
+    } 
 });
 
 client.login(mySecret);
