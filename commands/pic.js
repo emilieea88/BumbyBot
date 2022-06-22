@@ -9,6 +9,6 @@ module.exports = {
     name: 'pic',
     description: 'random bumby pic',
     execute(message, args){
-        message.channel.send(str1.concat(String((Math.floor(Math.random()*(fs.readdirSync(photos).length)))), str3));
+        message.channel.send(str1.concat(String((Math.floor(Math.random()*(fs.readdirSync(photos).length - 1)))), str3));
     }
 }
